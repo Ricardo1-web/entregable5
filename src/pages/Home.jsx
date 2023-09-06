@@ -34,6 +34,9 @@ const Home = () => {
             <button className="bg-[#D93F3F] text-white p-2 ">Star!</button>
           </form>
         </article>
+        <div className="">
+          <img src="/images/wellcometranier.jpeg" alt="" />
+        </div>
       </section>
       <FooterPokeball />
     </main>

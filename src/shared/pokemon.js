@@ -18,6 +18,7 @@ const bgStylePokemonType = {
     unknown: "bg-gradient-to-b from-[#35433E] to-[#45665B]",
     dark: "bg-gradient-to-b from-[#050706] to-[#5A5979]",
     fairy: "bg-gradient-to-b from-[#EB1269] to-[#EB1269]",
+    rock: "bg-gradient-to-b from-[#8D8D94] to-[#D3D3D3]"
   };
 
   const borderStyledPokemonByType = {
@@ -40,6 +41,7 @@ const bgStylePokemonType = {
     unknown: "border-[5px] border-[#35433E]",
     dark: "border-[5px] border-[#0B0E0D]",
     fairy: "border-[5px] border-[#971B45]",
+    rock: "border-[5px] border-[#7E7E7E]"
   };
 
   export {

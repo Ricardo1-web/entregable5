@@ -15,7 +15,7 @@ const PokemonCard = ({ pokemonUrl }) => {
 
   return (
     <Link
-    to={`/pokedex/${pokemonInfo?.id}}`}
+    to={`/pokedex/${pokemonInfo?.id}`}
       className={`text-center capitalize border-[5px] rounded-md ${
         borderStyledPokemonByType[pokemonInfo?.types[0]]
       }`}
@@ -26,7 +26,7 @@ const PokemonCard = ({ pokemonUrl }) => {
         }`}
       >
         <div
-          className="absolute left-1/2 -translate-x-1/2 -bottom-4 h-[65px] 
+          className=" absolute left-1/2 -translate-x-1/2 -bottom-4 h-[65px] 
         aspect-square"
         >
           <img
@@ -37,7 +37,7 @@ const PokemonCard = ({ pokemonUrl }) => {
         </div>
       </header>
       <section>
-        <h3 className="text-lg font-bold">{pokemonInfo?.name}</h3>
+        <h3 className="font-bold">{pokemonInfo?.name}</h3>
         <h4>{joinPokemonTypes(pokemonInfo?.types)}</h4>
         <h5 className="text-sm mb-2">Types</h5>
         <hr />
